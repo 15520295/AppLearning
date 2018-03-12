@@ -25,6 +25,10 @@ public class Word implements Serializable, Cloneable {
 
     public static MediaPlayer mediaPlayer = new MediaPlayer();            // dùng để phát âm thanh
 
+    public Word(){
+
+    }
+
     // clone
     public Word(Word word){
         Id = word.getId();
